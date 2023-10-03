@@ -2,12 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>First App</title>
-    <script src="build/bundle.js" defer></script>
+    <title>Document</title>
+    <link href="main.css" rel="stylesheet" />
+    <script src="build/bundle.js" defer type="module"></script>
   </head>
+
   <body>
-    <h1 id="greeting">moi</h1>
+    <h1>Restaurants</h1>
+    <h2>Filter restaurants</h2>
+    <div id="napit">
+      <button id="sodexo">Sodexo</button>
+      <button id="compass">Compass Group</button>
+      <button id="reset">Show all</button>
+    </div>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+      </tr>
+      <!-- add restaurants here -->
+    </table>
+    <!-- modal -->
+    <dialog>
+      <!-- add restaurant info here when restaurant is clicked -->
+    </dialog>
   </body>
 </html>
